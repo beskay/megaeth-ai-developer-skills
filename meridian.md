@@ -295,6 +295,7 @@ This guide assumes a direct JSON handoff from buyer to seller. If you later wrap
 - Reusing old 6-decimal USDC assumptions instead of 18-decimal USDm units
 - Sending BigInts directly through JSON without stringifying them
 - Exposing the seller API key to untrusted clients in production
+- Using a delegated wallet (signature verification will fail)
 
 ## Source Material
 
